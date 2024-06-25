@@ -1,11 +1,21 @@
 body{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 h1{
-color: coral;
+    font-size:30px;
+    color: black;
+    text-align: left;
 }
-p{
-background-color: gray;
-color: wheat;
-
+.tabs{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    word-wrap: break-word;
+}
+.info{
+    text-align: center;
+}
+.skills{
+    
 }
