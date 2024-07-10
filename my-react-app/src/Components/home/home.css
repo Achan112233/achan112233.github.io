@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  padding: 6rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.cta-button, .contact-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.cta-button:hover, .contact-button:hover {
+  background-color: #0056b3;
+}
+
+.about, .projects, .contact {
+  background-color: white;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.social-links {
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+}
