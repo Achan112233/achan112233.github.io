@@ -2,11 +2,13 @@ import React from 'react';
 import './home.css';
 import logo from "../../assets/LOGOv2.png"
 import Card from "../../Card";
+import Experience from '../experience/Experience';
 function Home() {
   return (
     <div className="home">
       <HeroSection />
       <AboutSection />
+      <Experience />
       <ContactSection />
       <Footer />
     </div>
@@ -48,11 +50,11 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="social-links">
-        <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://twitter.com/johndoe" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://github.com/Achan112233" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/antchan12" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
       </div>
-      <p>&copy; 2024 John Doe. All rights reserved.</p>
+      <p>&copy; 2024 Anthony Chan. All rights reserved.</p>
     </footer>
   );
 }
