@@ -41,7 +41,7 @@ function ContactSection() {
     <section className="contact">
       <h2>Get In Touch</h2>
       <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-      <a href="mailto:johndoe@example.com" className="contact-button">Email Me</a>
+      <a className="contact-button" href="mailto:anthonycc1122@gmail.com">Email Me</a>
     </section>
   );
 }
