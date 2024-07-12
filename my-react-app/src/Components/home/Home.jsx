@@ -3,11 +3,13 @@ import './home.css';
 import logo from "../../assets/LOGOv2.png"
 import Card from "../../Card";
 import Experience from '../experience/Experience';
+import Skills from '../skills/Skills';
 function Home() {
   return (
     <div className="home">
       <HeroSection />
       <AboutSection />
+      <Skills />
       <Experience />
       <ContactSection />
       <Footer />
@@ -21,7 +23,7 @@ function HeroSection() {
       <h1>Anthony Chan</h1>
       <img className="card-image"src={logo} alt="profile picture"></img>
       <h2>Software Developer</h2>
-      <p>Crafting elegant solutions to complex problems</p>
+      <p>Crafting Elegant Solutions to Complex Problems</p>
     </section>
   );
 }
@@ -31,7 +33,6 @@ function AboutSection() {
     <section className="about">
       <h2>About Me</h2>
       <Card/>
-      <p>I'm a passionate software developer with 5 years of experience in creating web applications. I specialize in React, Node.js, and Python. My goal is to build efficient, scalable, and user-friendly applications that make a difference.</p>
     </section>
   );
 }
