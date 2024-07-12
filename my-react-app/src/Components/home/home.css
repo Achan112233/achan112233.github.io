@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 .hero {
-  background-color: #f4f4f4;
+  background-color: #a89393;
   padding: 6rem 0;
 }
 
@@ -56,19 +56,6 @@ h1, h2, h3 {
 
 .about, .projects, .contact {
   background-color: white;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.project-card {
-  background-color: #f4f4f4;
-  padding: 1.5rem;
-  border-radius: 8px;
 }
 
 .footer {
