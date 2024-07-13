@@ -4,12 +4,14 @@ import logo from "../../assets/LOGOv2.png"
 import Card from "../../Card";
 import Experience from '../experience/Experience';
 import Skills from '../skills/Skills';
+import Projects from '../projects/Projects';
 function Home() {
   return (
     <div className="home">
       <HeroSection />
       <AboutSection />
       <Skills />
+      <Projects />
       <Experience />
       <ContactSection />
       <Footer />
