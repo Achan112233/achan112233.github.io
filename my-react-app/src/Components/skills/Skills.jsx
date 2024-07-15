@@ -2,7 +2,7 @@ import './skills.css'; // You'll need to create this CSS file
 
 function Skills() {
   const skills = [
-    { name: 'React', level: 1 },
+    { name: 'React', level: 15 },
     { name: 'JavaScript', level: 85 },
     { name: 'HTML/CSS', level: 80 },
     { name: 'Redux', level: 75 },
