@@ -25,7 +25,7 @@ function HeroSection() {
       <h1>Anthony Chan</h1>
       <img className="card-image"src={logo} alt="profile picture"></img>
       <h2>Software Developer</h2>
-      <p>Crafting Elegant Solutions to Complex Problems</p>
+      <p>Crafting Elegant Solutions to Complex Problems!</p>
     </section>
   );
 }
