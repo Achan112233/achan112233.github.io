@@ -5,6 +5,7 @@ import Card from "../../Card";
 import Experience from '../experience/Experience';
 import Skills from '../skills/Skills';
 import Projects from '../projects/Projects';
+import Resume from '../resume/Resume';
 function Home() {
   return (
     <div className="home">
@@ -13,6 +14,7 @@ function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Resume />
       <ContactSection />
       <Footer />
     </div>
