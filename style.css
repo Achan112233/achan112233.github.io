@@ -41,7 +41,7 @@ body {
     background: #F2E9E4;
     margin: 0;
     font-family: Jomolhari;
-    border: 10px solid #050505;
+    border: 10px solid #4e517a;
     height: 100vh;
 }
 
@@ -110,4 +110,11 @@ body {
     border-radius: 46px;
     background: #c5c1c1;
 
+}
+
+.about {
+    background: #F2E9E4;
+    margin: 0;
+    font-family: Jomolhari;
+    border: 10px solid #050505;
 }
