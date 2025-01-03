@@ -103,7 +103,7 @@ body {
     justify-content: center;
 }
 
-.projectImg {
+.project img {
     width: 500px;
     height: 325px;
     flex-shrink: 0;
@@ -118,7 +118,9 @@ body {
     border: 10px solid #050505;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 .about img {
@@ -127,4 +129,29 @@ body {
     flex-shrink: 0;
     border-radius: 350px;
     border: 10px solid #977979;
+    margin-top: 5%;
+}
+
+.about button {
+    width: 250px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Jomolhari;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about h1 {
+    color: #000;
+    text-align: center;
+    font-family: Jomolhari;
+    font-size: 24px;
+    font-weight: 400;
+    width: 1178px;
+    height: 252px;
+    flex-shrink: 0;
 }
