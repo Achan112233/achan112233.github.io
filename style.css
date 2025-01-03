@@ -41,7 +41,7 @@ body {
     background: #F2E9E4;
     margin: 0;
     font-family: Jomolhari;
-    border: 10px solid #4e517a;
+    border: 30px solid #4e517a;
     height: 100vh;
 }
 
@@ -86,7 +86,7 @@ body {
     background: #F2E9E4;
     margin: 0;
     font-family: Jomolhari;
-    border: 10px solid #050505;
+    border: 30px solid #4e517a;
 
 }
 
@@ -109,13 +109,14 @@ body {
     flex-shrink: 0;
     border-radius: 46px;
     background: #c5c1c1;
+    border: 10px solid #ac9e9e;
 }
 
 .about {
     background: #F2E9E4;
     margin: 0;
     font-family: Jomolhari;
-    border: 10px solid #050505;
+    border: 30px solid #4e517a;
     height: 100vh;
     display: flex;
     flex-direction: column;
