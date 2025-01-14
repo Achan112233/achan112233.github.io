@@ -16,11 +16,11 @@ body {
 }
 
 .footer {
-    display: flex;
     padding: 0 20px;
     background-color: #d4c9bf;
     border: 10px solid #a89f97;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .footer a{
