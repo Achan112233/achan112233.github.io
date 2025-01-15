@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    border: 30px solid #5e8692;
+    border: 30px solid #9DA389;
 }
 
 .navbar {
@@ -23,7 +23,31 @@ body {
     text-align: center;
 }
 
+.footer-links{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    justify-items: center; 
+    margin: 10px auto;
+    max-width: 600px
+}
 .footer a{
+    color: #000000;
+    font-family: Jomolhari;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.footer h1{
+    color: #000000;
+    font-family: Jomolhari;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.footer h2{
     color: #000000;
     font-family: Jomolhari;
     text-decoration: none;
