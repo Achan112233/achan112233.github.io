@@ -1,7 +1,14 @@
 body {
     margin: 0;
+    height: 100%;
     border: 30px solid #9DA389;
 }
+
+.page-border{
+    border: 5px solid #242020;
+    padding: 100;
+}
+
 .footer {
     padding: 0 20px;
     background-color: #d4c9bf;
