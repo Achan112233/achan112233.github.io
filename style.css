@@ -173,6 +173,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    height: 85vh;
 }
 
 .about img {
@@ -207,14 +208,13 @@ body {
     line-height: normal;
 }
 
-.about h1 {
-    color: #000;
-    text-align: center;
-    font-family: Jomolhari;
-    font-size: 30px;
-    font-weight: 400;
-    width: 1178px;
+.about p {
+    color: #414e69;
+    font-family: apercu;
+    font-size: 20px;
+    width: 1200px;
     flex-shrink: 0;
+    text-indent: 50px;
 }
 
 .skills{
