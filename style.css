@@ -138,39 +138,31 @@ body {
     text-decoration: underline;
 }
 
-.project {
+.project-page {
     background: #F2E9E4;
-    margin: 0;
-    font-family: Jomolhari;
-    flex-direction: column;
-    height: 1300px;
+    padding: 5%;
 }
 
-.project h1{
+.project-page h1{
     color: #22223B;
     font-family: Jomolhari;
     font-size: 64px;
-    font-style: normal;
     text-align: center;
-    line-height: 200px;
+    margin-bottom: 3rem;
 }
-.project-blox img {
-    width: 500px;
-    height: 325px;
-    flex-shrink: 0;
-    border-radius: 46px;
-    background: #c5c1c1;
-}
-.project-blox-alt img {
-    width: 500px;
-    height: 325px;
-    flex-shrink: 0;
-    border-radius: 46px;
-    background: #c5c1c1;
+.projects{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    max-width: 2000px;
+    margin: 0 auto;
 }
 
-.project-blox{
-    align-items: right;
+.project-blox img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
 }
 
 .about {
