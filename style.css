@@ -139,12 +139,11 @@ body {
 }
 
 .project {
-    display: flex;
     background: #F2E9E4;
     margin: 0;
     font-family: Jomolhari;
     flex-direction: column;
-    align-items: center;
+    height: 1300px;
 }
 
 .project h1{
@@ -152,17 +151,26 @@ body {
     font-family: Jomolhari;
     font-size: 64px;
     font-style: normal;
-    font-weight: 400;
     text-align: center;
-    line-height: 400px;
+    line-height: 200px;
 }
-.project img {
+.project-blox img {
     width: 500px;
     height: 325px;
     flex-shrink: 0;
     border-radius: 46px;
     background: #c5c1c1;
-    border: 10px solid #ac9e9e;
+}
+.project-blox-alt img {
+    width: 500px;
+    height: 325px;
+    flex-shrink: 0;
+    border-radius: 46px;
+    background: #c5c1c1;
+}
+
+.project-blox{
+    align-items: right;
 }
 
 .about {
