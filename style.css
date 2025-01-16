@@ -5,14 +5,13 @@ body {
 }
 
 .page-border{
-    border: 5px solid #242020;
-    padding: 100;
+    border: 2px solid #1a1919;
 }
 
 .footer {
+    margin: 0;
     padding: 0 20px;
-    background-color: #d4c9bf;
-    border: 10px solid #a89f97;
+    background-color: #242020;
     flex-shrink: 0;
     text-align: center;
 }
@@ -25,21 +24,22 @@ body {
     max-width: 600px
 }
 .footer a{
-    color: #000000;
+    color: #d2d2e0;
     font-family: Jomolhari;
     text-decoration: none;
     margin-left: 20px;
     font-size: 24px;
 }
 .footer h1{
-    color: #000000;
+    color: #d2d2e0;
     font-family: Jomolhari;
     text-decoration: none;
     margin-left: 20px;
     font-size: 30px;
 }
 .footer h2{
-    color: #000000;
+    margin: 0;
+    color: #d2d2e0;
     font-family: Jomolhari;
     text-decoration: none;
     margin-left: 20px;
@@ -47,7 +47,7 @@ body {
 }
 
 .section-one{
-    background: #40434E;
+    background: #242020;
     margin: 0;
     font-family: Jomolhari;
     height: 80vh;
