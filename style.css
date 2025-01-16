@@ -64,8 +64,6 @@ body {
     color: #d2d2e0;
     font-family: Jomolhari;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
     text-align: center;
     line-height: 400px;
 }
@@ -207,4 +205,17 @@ body {
     font-weight: 400;
     width: 1178px;
     flex-shrink: 0;
+}
+
+.skills{
+    color: #c5c1c1;
+    font-size: 40px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.skills i{
+    color: #c5c1c1;
+    font-size: 80px;
+    margin: 0 10px;
 }
