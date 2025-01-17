@@ -323,6 +323,7 @@ body {
 }
 
 .project-page p{
+    background-color: #bdbdbd;
     padding: 5%;
     border-radius: 25px;
     border: 5px solid #353334;
