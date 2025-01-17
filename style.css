@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     height: 100%;
-    border: 30px solid #9DA389;
+    border: 30px solid #7f9c58;
 }
 
 .page-border {
@@ -300,16 +300,28 @@ body {
 }
 
 .project-page {
-    background: #F2E9E4;
+    background: #242020;
     padding: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 .project-page h1{
     font-weight: bolder;
+    text-align: center;
+    color:#d2d2e0;
+}
+
+.project-page h2{
+    color:#d2d2e0;
+    font-weight: bold;
+    font-size: 20px;
+    width: 1200px;
+    flex-shrink: 0;
     text-align: center;
 }
 
@@ -323,13 +335,19 @@ body {
 }
 
 .project-page p{
-    background-color: #bdbdbd;
-    padding: 5%;
-    border-radius: 25px;
-    border: 5px solid #353334;
-    color:#414e69;
+    color:#d2d2e0;
     font-weight: bold;
     font-size: 20px;
     width: 1200px;
     flex-shrink: 0;
+}
+
+.project-page h3{
+    color:#d2d2e0;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    width: 1200px;
+    margin-left: -340px;
+    margin-top: -50px;
 }
