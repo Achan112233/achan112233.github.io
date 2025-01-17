@@ -140,7 +140,6 @@ body {
     color: #353334;
     white-space: normal;
     font-family: "Noto Sans";
-    ;
     font-size: 25px;
     margin: 2%;
     font-style: italic;
@@ -152,19 +151,19 @@ body {
     text-decoration: underline;
 }
 
-.project-page {
+.projects-page {
     background: #F2E9E4;
     padding: 5%;
 }
 
-.project-page h1 {
+.projects-page h1 {
     color: #22223B;
     font-size: 64px;
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.project-page p {
+.projects-page p {
     color: #22223B;
     font-size: 20px;
     text-align: center;
@@ -298,4 +297,44 @@ body {
 
 .landing-sec a:hover {
     text-decoration: underline;
+}
+
+.project-page {
+    background: #F2E9E4;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project-page h1{
+    font-weight: bolder;
+    text-align: center;
+}
+.project-page p {
+    color: #22223B;
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.project-page img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: fit-content;
+    height: 400px;
+    margin: 8px;
+    width: calc(50% - 20px);
+}
+
+.project-page p{
+    padding: 5%;
+    border-radius: 25px;
+    border: 5px solid #353334;
+    color:#414e69;
+    font-weight: bold;
+    font-size: 20px;
+    width: 1200px;
+    flex-shrink: 0;
+    text-indent: 50px;
 }
