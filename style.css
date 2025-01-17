@@ -312,11 +312,6 @@ body {
     font-weight: bolder;
     text-align: center;
 }
-.project-page p {
-    color: #22223B;
-    font-size: 20px;
-    margin-bottom: 3rem;
-}
 
 .project-page img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -336,5 +331,4 @@ body {
     font-size: 20px;
     width: 1200px;
     flex-shrink: 0;
-    text-indent: 50px;
 }
