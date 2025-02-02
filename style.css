@@ -1,56 +1,60 @@
 html {
     font-family: "Montserrat";
+    font-size: 1vw; /* Use vw for dynamic font size */
 }
 
 body {
     margin: 0;
     height: 100%;
-    border: 30px solid #7f9c58;
+    border: 1.875rem solid #7f9c58; /* Convert to rem */
 }
 
 .page-border {
-    border: 2px solid #1a1919;
+    border: 0.125rem solid #1a1919; /* Convert to rem */
 }
 
 .footer {
     position: relative;
-    padding: 40px;
+    padding: 2.5rem; /* Convert to rem */
     background-color: #242020;
     text-align: center;
-    height: 200px;
+    height: auto; /* Allow height to adjust */
 }
 
 .footer-links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 0.625rem; /* Convert to rem */
     justify-items: center;
-    margin: 10px auto;
-    max-width: 610px
+    margin: 0.625rem auto; /* Convert to rem */
+    transition: all 0.3s ease-in-out;
+    max-width: 38.125rem; /* Convert to rem */
 }
 
 .footer a {
     color: #d2d2e0;
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-left: 1.25rem; /* Convert to rem */
+    font-size: 1.25rem; /* Convert to rem */
 }
 
 .footer h1 {
     color: #d2d2e0;
     text-decoration: none;
-    margin-left: 20px;
-    font-size: 30px;
-    margin-bottom: 25px;
+    margin-left: 1.25rem; /* Convert to rem */
+    font-size: 1.875rem; /* Convert to rem */
+    margin-bottom: 1.5625rem; /* Convert to rem */
+    /* Add an ID for dynamic updates */
+    id: "footer-title";
 }
 
 .footer h2 {
     position: absolute;
-    bottom: 25px;
+    bottom: 1.5625rem; /* Convert to rem */
     left: 50%;
     transform: translateX(-50%);
     margin: 0;
-    font-size: 12px;
+    font-size: 0.75rem; /* Convert to rem */
     color: #d2d2e0;
     text-decoration: none;
 }
@@ -66,39 +70,41 @@ body {
 }
 
 .section-one-border {
-    border: 2px double #F2E9E4;
+    border: 0.125rem double #F2E9E4; /* Convert to rem */
 }
 
 .section-one-border-border {
-    border: 20px solid #242020;
+    border: 1.25rem solid #242020; /* Convert to rem */
 }
 
 .section-one h1 {
     color: #d2d2e0;
     font-family: "Montserrat";
     font-weight: bolder;
-    font-size: 64px;
+    font-size: 4vw; /* Use vw for dynamic font size */
     text-align: center;
-    line-height: 400px;
+    line-height: 25rem; /* Convert to rem */
+    /* Add an ID for dynamic updates */
+    id: "section-one-title";
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 1.125rem; /* Convert to rem */
     color: #FFF;
 }
 
 .navbar {
-    padding: 0 150px;
+    padding: 0 9.375rem; /* Convert to rem */
     background-color: #0D0A27;
-    height: 80px;
+    height: 5rem; /* Convert to rem */
     flex-shrink: 0;
 }
 
 .navbar a {
     color: #FFF;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 1.125rem; /* Convert to rem */
+    padding: 0.625rem; /* Convert to rem */
 }
 
 .navbar a:hover {
@@ -112,35 +118,39 @@ body {
     height: 80vh;
     flex-direction: column;
     align-items: center;
+    gap: 2rem; /* Add gap to the motto */
 }
 
 .landing h1 {
     color: #22223B;
-    font-size: 64px;
+    font-size: 4vw; /* Use vw for dynamic font size */
     font-family: "Noto Sans";
     font-style: normal;
     font-weight: bolder;
     text-align: center;
-    line-height: 270px;
     margin-top: 5%;
+    margin-left: 5rem; /* Add more left margin */
+    margin-right: 5rem; /* Add more right margin */
 }
 
 .landing p {
     color: #414e69;
     font-family: Verdana;
-    font-size: 27px;
+    font-size: 1.6875rem; /* Convert to rem */
     margin: 0 auto;
     font-style: normal;
     text-align: center;
     word-wrap: break-word;
-    max-width: 850px;
+    max-width: 53.125rem; /* Convert to rem */
+    /* Add an ID for dynamic updates */
+    id: "landing-description";
 }
 
 .landing a {
     color: #353334;
     white-space: normal;
     font-family: "Noto Sans";
-    font-size: 25px;
+    font-size: 1.5625rem; /* Convert to rem */
     margin: 2%;
     font-style: italic;
     text-align: center;
@@ -158,31 +168,40 @@ body {
 
 .projects-page h1 {
     color: #22223B;
-    font-size: 64px;
+    font-size: 4vw; /* Use vw for dynamic font size */
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; /* Convert to rem */
 }
 
 .projects-page p {
     color: #22223B;
-    font-size: 20px;
+    font-size: 1.25rem; /* Convert to rem */
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; /* Convert to rem */
 }
 
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    max-width: 2000px;
+    gap: 2rem; /* Convert to rem */
+    max-width: 125rem; /* Convert to rem */
     margin: 0 auto;
 }
 
 .project-blox img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    width: 500px;
-    height: 300px;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); /* Convert to rem */
+    border-radius: 1.25rem; /* Convert to rem */
+    width: 100%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images fit within their container */
+}
+
+.project-img {
+    width: 100%; /* Make the width dynamic */
+    max-width: 500px; /* Set the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 5 / 3; /* Ensure the aspect ratio is 500px width to 300px height */
+    object-fit: cover;
 }
 
 .about {
@@ -191,8 +210,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-    height: 900px;
+    gap: 2rem; /* Convert to rem */
+    height: auto; /* Allow height to adjust */
 }
 
 .about h1 {
@@ -200,32 +219,32 @@ body {
 }
 
 .about img {
-    width: 350px;
-    height: 350px;
+    width: 100%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
     flex-shrink: 0;
-    border-radius: 350px;
+    border-radius: 21.875rem; /* Convert to rem */
 }
 
 .pfp-border {
-    border: 5px solid #030303;
+    border: 0.3125rem solid #030303; /* Convert to rem */
     flex-shrink: 0;
-    border-radius: 350px;
+    border-radius: 21.875rem; /* Convert to rem */
 }
 
 .borderborder {
-    border: 2px solid #977979;
+    border: 0.125rem solid #977979; /* Convert to rem */
     flex-shrink: 0;
-    border-radius: 350px;
-    margin-top: 30px;
+    border-radius: 21.875rem; /* Convert to rem */
+    margin-top: 1.875rem; /* Convert to rem */
 }
 
 .about button {
-    width: 250px;
-    height: 45px;
+    width: 15.625rem; /* Convert to rem */
+    height: 2.8125rem; /* Convert to rem */
     flex-shrink: 0;
     color: #000000;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem; /* Convert to rem */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -233,24 +252,29 @@ body {
 
 .about p {
     color: #242425;
-    font-size: 20px;
-    width: 1200px;
+    font-size: 1.25rem; /* Convert to rem */
+    width: 75rem; /* Convert to rem */
     flex-shrink: 0;
-    text-indent: 50px;
+    text-indent: 3.125rem; /* Convert to rem */
 }
 
 .skills {
     color: #c5c1c1;
-    font-size: 40px;
+    font-size: 2.5rem; /* Convert to rem */
     display: flex;
-    gap: 20px;
+    gap: 1.25rem; /* Convert to rem */
     flex-direction: column;
 }
 
 .skills i {
     color: #c5c1c1;
-    font-size: 80px;
-    margin: 0 10px;
+    font-size: 5rem; /* Convert to rem */
+    margin: 0 0.625rem; /* Convert to rem */
+}
+
+.skills svg {
+    max-width: 100%; /* Ensure SVGs stay within their container */
+    height: auto;
 }
 
 .landing-sec {
@@ -265,30 +289,30 @@ body {
 .landing-sec h1 {
     color: #22223B;
     font-family: "Montserrat";
-    font-size: 64px;
+    font-size: 4vw; /* Use vw for dynamic font size */
     font-weight: bolder;
     font-style: normal;
     text-align: center;
-    line-height: 270px;
+    line-height: 16.875rem; /* Convert to rem */
     margin-top: 5%;
 }
 
 .landing-sec p {
     color: #414e69;
     font-family: Verdana;
-    font-size: 24px;
+    font-size: 1.5rem; /* Convert to rem */
     margin: 0 auto;
     font-style: normal;
     text-align: center;
     word-wrap: break-word;
-    max-width: 850px;
+    max-width: 53.125rem; /* Convert to rem */
 }
 
 .landing-sec a {
     color: #353334;
     white-space: normal;
     font-family: Verdana;
-    font-size: 25px;
+    font-size: 1.5625rem; /* Convert to rem */
     margin: 2%;
     font-style: italic;
     text-align: center;
@@ -306,53 +330,52 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem; /* Convert to rem */
     align-items: center;
 }
 
-.project-page h1{
+.project-page h1 {
     font-weight: bolder;
     text-align: center;
-    color:#d2d2e0;
+    color: #d2d2e0;
 }
 
-.project-page h2{
-    color:#d2d2e0;
+.project-page h2 {
+    color: #d2d2e0;
     font-weight: bold;
-    font-size: 20px;
-    width: 1200px;
+    font-size: 1.25rem; /* Convert to rem */
+    width: 75rem; /* Convert to rem */
     flex-shrink: 0;
     text-align: center;
 }
 
 .project-page img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    width: fit-content;
-    height: 400px;
-    margin: 8px;
-    width: calc(50% - 20px);
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2); /* Convert to rem */
+    border-radius: 1.25rem; /* Convert to rem */
+    width: 100%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0.5rem; /* Convert to rem */
 }
 
-.project-page p{
-    color:#d2d2e0;
+.project-page p {
+    color: #d2d2e0;
     font-weight: bold;
-    font-size: 20px;
-    width: 1200px;
+    font-size: 1.25rem; /* Convert to rem */
+    width: 75rem; /* Convert to rem */
     flex-shrink: 0;
 }
 
-.project-page h3{
-    color:#d2d2e0;
+.project-page h3 {
+    color: #d2d2e0;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 18px;
-    width: 1200px;
-    margin-left: -340px;
-    margin-top: -50px;
+    font-size: 1.125rem; /* Convert to rem */
+    width: 75rem; /* Convert to rem */
+    margin-left: 0; /* Center the return div */
+    margin-top: -3.125rem; /* Convert to rem */
 }
 
-.tech-used{
+.tech-used {
     display: flex;
     background: #F2E9E4;
     margin: 0;
@@ -361,16 +384,185 @@ body {
     padding: 4%;
 }
 
-.tech-used h1{
+.tech-used h1 {
     font-weight: bolder;
     text-align: center;
-    color:#22223B;
+    color: #22223B;
 }
 
-.tech-used p{
-    color:#22223B;
+.tech-used p {
+    color: #22223B;
     font-weight: bold;
-    font-size: 20px;
-    width: 1200px;
+    font-size: 1.25rem; /* Convert to rem */
+    width: 75rem; /* Convert to rem */
     flex-shrink: 0;
+}
+
+.pfp-img {
+    width: 100%; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1.25rem; /* Convert to rem */
+        height: 3.75rem; /* Convert to rem */
+    }
+
+    .navbar a {
+        font-size: 0.875rem; /* Convert to rem */
+        padding: 0.3125rem; /* Convert to rem */
+    }
+
+    .landing {
+        height: auto;
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .landing h1 {
+        font-size: 2rem; /* Convert to rem */
+        line-height: 1.2;
+        margin-top: 10%;
+    }
+
+    .landing p {
+        font-size: 1.125rem; /* Convert to rem */
+        max-width: 100%;
+    }
+
+    .landing a {
+        font-size: 1.125rem; /* Convert to rem */
+    }
+
+    .section-one {
+        height: auto;
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .section-one h1 {
+        font-size: 2rem; /* Convert to rem */
+        line-height: 1.2;
+    }
+
+    .skills {
+        font-size: 1.5rem; /* Convert to rem */
+    }
+
+    .skills i {
+        font-size: 2.5rem; /* Convert to rem */
+    }
+
+    .footer {
+        padding: 1.25rem; /* Convert to rem */
+        height: auto;
+    }
+
+    .footer h1 {
+        font-size: 1.5rem; /* Convert to rem */
+    }
+
+    .footer h2 {
+        font-size: 0.625rem; /* Convert to rem */
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.3125rem; /* Convert to rem */
+    }
+
+    .projects-page {
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .projects-page h1 {
+        font-size: 2rem; /* Convert to rem */
+    }
+
+    .projects-page p {
+        font-size: 1rem; /* Convert to rem */
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Convert to rem */
+    }
+
+    .project-blox img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about {
+        height: auto;
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .about h1 {
+        font-size: 2rem; /* Convert to rem */
+    }
+
+    .about p {
+        font-size: 1rem; /* Convert to rem */
+        width: 100%;
+    }
+
+    .landing-sec {
+        height: auto;
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .landing-sec h1 {
+        font-size: 2rem; /* Convert to rem */
+        line-height: 1.2;
+    }
+
+    .landing-sec p {
+        font-size: 1.125rem; /* Convert to rem */
+        max-width: 100%;
+    }
+
+    .landing-sec a {
+        font-size: 1.125rem; /* Convert to rem */
+    }
+
+    .project-page {
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .project-page h1 {
+        font-size: 2rem; /* Convert to rem */
+    }
+
+    .project-page h2 {
+        font-size: 1rem; /* Convert to rem */
+    }
+
+    .project-page img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-page p {
+        font-size: 1rem; /* Convert to rem */
+    }
+
+    .project-page h3 {
+        font-size: 1rem; /* Convert to rem */
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .tech-used {
+        padding: 1.25rem; /* Convert to rem */
+    }
+
+    .tech-used h1 {
+        font-size: 2rem; /* Convert to rem */
+    }
+
+    .tech-used p {
+        font-size: 1rem; /* Convert to rem */
+    }
 }
