@@ -63,7 +63,7 @@ body {
     background: #242020;
     margin: 0;
     font-family: "Montserrat";
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +81,7 @@ body {
     color: #d2d2e0;
     font-family: "Montserrat";
     font-weight: bolder;
-    font-size: 4vw; /* Use vw for dynamic font size */
+    font-size: 3.5vw; /* Use vw for dynamic font size */
     text-align: center;
     line-height: 25rem; /* Convert to rem */
     /* Add an ID for dynamic updates */
@@ -258,7 +258,7 @@ body {
 
 .skills {
     color: #c5c1c1;
-    font-size: 2.5rem; /* Convert to rem */
+    font-size: 2rem; /* Convert to rem */
     display: flex;
     gap: 1.25rem; /* Convert to rem */
     flex-direction: column;
