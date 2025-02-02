@@ -123,12 +123,12 @@ body {
 
 .landing h1 {
     color: #22223B;
-    font-size: 4vw; /* Use vw for dynamic font size */
     font-family: "Noto Sans";
     font-style: normal;
     font-weight: bolder;
+    font-size: 3.5vw; /* Use vw for dynamic font size */
     text-align: center;
-    margin-top: 5%;
+    margin-top: 12%;
     margin-left: 5rem; /* Add more left margin */
     margin-right: 5rem; /* Add more right margin */
 }
@@ -136,14 +136,12 @@ body {
 .landing p {
     color: #414e69;
     font-family: Verdana;
-    font-size: 1.6875rem; /* Convert to rem */
+    font-size: 1.5rem; /* Convert to rem */
     margin: 0 auto;
     font-style: normal;
     text-align: center;
     word-wrap: break-word;
     max-width: 53.125rem; /* Convert to rem */
-    /* Add an ID for dynamic updates */
-    id: "landing-description";
 }
 
 .landing a {
