@@ -246,6 +246,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border-radius: 1rem; /* Add roundness */
 }
 
 .about p {
@@ -254,6 +255,7 @@ body {
     width: 75rem; /* Convert to rem */
     flex-shrink: 0;
     text-indent: 3.125rem; /* Convert to rem */
+    margin-bottom: 5%;
 }
 
 .skills {
