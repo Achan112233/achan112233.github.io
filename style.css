@@ -1,5 +1,5 @@
 html {
-    font-family: "Montserrat";
+    font-family: "Noto sans", sans-serif;
     font-size: 1vw; /* Use vw for dynamic font size */
 }
 
@@ -210,17 +210,19 @@ body {
     align-items: center;
     gap: 2rem; /* Convert to rem */
     height: auto; /* Allow height to adjust */
+    padding: 5%;
 }
 
 .about h1 {
-    margin-top: 2%;
+    color: #22223B;
+    font-size: 4vw; /* Use vw for dynamic font size */
+    text-align: center;
 }
 
 .about img {
     width: 100%; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
+    height: 350px; /* Maintain aspect ratio */
     flex-shrink: 0;
-    border-radius: 21.875rem; /* Convert to rem */
 }
 
 .pfp-border {
@@ -255,7 +257,7 @@ body {
     width: 75rem; /* Convert to rem */
     flex-shrink: 0;
     text-indent: 3.125rem; /* Convert to rem */
-    margin-bottom: 5%;
+
 }
 
 .skills {
