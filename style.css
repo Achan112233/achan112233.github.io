@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     height: 100%;
-    border: 1.875rem solid #7f9c58; /* Convert to rem */
+    border: 1.875rem solid #42413c; /* Convert to rem */
 }
 
 .page-border {
@@ -95,7 +95,7 @@ body {
 
 .navbar {
     padding: 0 9.375rem; /* Convert to rem */
-    background-color: #0D0A27;
+    background-color: #0f0f0f ;
     height: 5rem; /* Convert to rem */
     flex-shrink: 0;
 }
