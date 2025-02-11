@@ -62,7 +62,7 @@ body {
 .section-one {
     background: #242020;
     margin: 0;
-    font-family: "Montserrat";
+    font-family: "Noto sans", sans-serif;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@ body {
 
 .section-one h1 {
     color: #d2d2e0;
-    font-family: "Montserrat";
+    font-family: "Noto sans", sans-serif;
     font-weight: bolder;
     font-size: 3.5vw; /* Use vw for dynamic font size */
     text-align: center;
